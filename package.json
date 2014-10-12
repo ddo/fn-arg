@@ -1,6 +1,6 @@
 {
   "name": "fn-arg",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "handle optional function arguments",
   "main": "index.js",
   "scripts": {
