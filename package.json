@@ -1,0 +1,28 @@
+{
+  "name": "fn-arg",
+  "version": "0.0.1",
+  "description": "handle optional function arguments",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm i && ./node_modules/.bin/mocha",
+    "start": "node example"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://ddo@github.com/ddo/fn-arg.git"
+  },
+  "keywords": [
+    "function",
+    "argument"
+  ],
+  "author": "ddo <joeddo89@gmail.com> (http://ddo.me/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ddo/fn-arg/issues"
+  },
+  "homepage": "https://github.com/ddo/fn-arg",
+  "devDependencies": {
+    "chai": "^1.9.2",
+    "mocha": "^1.21.5"
+  }
+}
