@@ -1,7 +1,8 @@
 module.exports = Args;
 
-function Args(rules, args) {
-    var fn_name = arguments.callee.caller.name;
+function Args(rules) {
+    var fn   = arguments.callee.caller;
+    var args = arguments.callee.caller.arguments;
 
     var res = {};
 
