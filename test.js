@@ -8,7 +8,7 @@ describe("fn-arg", function() {
             2: ['a', 'e'],
             3: ['a', 'b', 'e'],
             4: ['a', 'b', 'c', 'e']
-        }, arguments);
+        });
 
         return args;
     }
