@@ -18,7 +18,7 @@ function i_handle_many_arguments(a, b, c, d, callback) {
 
     //set rules
     var args = Args({
-        2: ['a', [Function: callback]],
+        2: ['a', 'callback'],
         3: ['a', 'b', 'callback'],
         4: ['a', 'b', 'c', 'callback'],
         5: ['a', 'b', 'c', 'd', 'callback'] // require
